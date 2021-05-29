@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/photo"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/soru_alani"
+        android:layout_toRightOf="@id/photo"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/soru"
+            android:text="Soru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/cevap1"
+            android:text="Cevap 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/cevap2"
+            android:text="Cevap 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/cevap3"
+            android:text="Cevap 3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/cevap4"
+            android:text="Cevap 4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/dogru_cevap"
+            android:text="Doğru Cevap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/soru_alani"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@color/delete"
+            android:text="Delete"
+            android:textSize="20px"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/btn_sil"
+            android:layout_width="50dp"
+            android:layout_height="30dp"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:background="@color/update"
+            android:text="Update"
+            android:textSize="20px"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btn_güncelle"
+            android:layout_width="50dp"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

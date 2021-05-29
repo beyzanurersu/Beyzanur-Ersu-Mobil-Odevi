@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="60dp"
+        android:text="Add Questıon"
+        android:id="@+id/soru_ekle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="30dp"
+        android:text="Lıst Questıon"
+        android:id="@+id/soru_listele"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/update"
+        android:layout_marginTop="30dp"
+        android:text="Create Exam "
+        android:id="@+id/sinav_olustur"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/delete"
+        android:layout_marginTop="30dp"
+        android:text="Settıngs"
+        android:id="@+id/sinav_ayarlari"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="BLM5218 Mobil Teknolojiler ve Uygulamalar - Ödev"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+
+                android:hint="Username"
+                android:id="@+id/username_area"
+                android:layout_width="800px"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:hint="Password"
+                android:id="@+id/password_area"
+                android:layout_width="800px"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:background="@color/colorPrimary"
+                android:id="@+id/btn_signin"
+                android:text="Sıgn In"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/white"
+                android:layout_width="200px"
+                android:layout_height="100px" />
+
+            <Button
+                android:background="@color/colorAccent"
+                android:id="@+id/btn_signup"
+                android:text="Sıgn Up"
+                android:textColor="@color/white"
+                android:layout_height="100px"
+                android:layout_width="200px"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
